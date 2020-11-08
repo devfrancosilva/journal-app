@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/journal.francoder.me/static/css/main.6e1ec3e5.chunk.css",
+    "main.js": "/journal.francoder.me/static/js/main.ddab671b.chunk.js",
+    "main.js.map": "/journal.francoder.me/static/js/main.ddab671b.chunk.js.map",
+    "runtime-main.js": "/journal.francoder.me/static/js/runtime-main.91f11560.js",
+    "runtime-main.js.map": "/journal.francoder.me/static/js/runtime-main.91f11560.js.map",
+    "static/js/2.81f876c1.chunk.js": "/journal.francoder.me/static/js/2.81f876c1.chunk.js",
+    "static/js/2.81f876c1.chunk.js.map": "/journal.francoder.me/static/js/2.81f876c1.chunk.js.map",
+    "index.html": "/journal.francoder.me/index.html",
+    "precache-manifest.24a0ee7b59d2e7cf8ad2462457d808f0.js": "/journal.francoder.me/precache-manifest.24a0ee7b59d2e7cf8ad2462457d808f0.js",
+    "service-worker.js": "/journal.francoder.me/service-worker.js",
+    "static/css/main.6e1ec3e5.chunk.css.map": "/journal.francoder.me/static/css/main.6e1ec3e5.chunk.css.map",
+    "static/js/2.81f876c1.chunk.js.LICENSE.txt": "/journal.francoder.me/static/js/2.81f876c1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91f11560.js",
+    "static/js/2.81f876c1.chunk.js",
+    "static/css/main.6e1ec3e5.chunk.css",
+    "static/js/main.ddab671b.chunk.js"
+  ]
+}
