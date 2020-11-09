@@ -54,12 +54,16 @@
 }
 
 .journal__entry-picture {
-  height: 75px;
-  width: 75px;
+  width: 150px;
+}
+
+.journal__entry-no-picture {
+  max-width: 400px !important;
 }
 
 .journal__entry-body {
   padding: 10px;
+  max-width: 150px;
 }
 
 .journal__entry-title {

@@ -6,6 +6,9 @@ import { activeNote } from '../../actions/notes'
 export const JournalEntry = ({ id, date, title, body, url }) => {
   const noteDate = moment(date)
   const dispatch = useDispatch()
+  const classImg = url
+    ? 'journal__entry-body'
+    : 'journal__entry-body journal__entry-no-picture'
   const handleClick = () => {
     dispatch(
       activeNote(id, {
@@ -32,7 +35,7 @@ export const JournalEntry = ({ id, date, title, body, url }) => {
         ></div>
       )}
 
-      <div className='journal__entry-body'>
+      <div className={classImg}>
         <p className='journal__entry-title'>{title}</p>
         <p className='journal__entry-content'>{body}</p>
       </div>
