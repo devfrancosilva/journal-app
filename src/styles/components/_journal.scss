@@ -1,5 +1,8 @@
 .journal__main-content {
   display: flex;
+  @media (max-width: 640px) {
+    flex-direction: column;
+  }
 }
 
 .journal__sidebar {
@@ -11,6 +14,9 @@
   padding-left: 10px;
   padding-right: 10px;
   width: 450px;
+  @media (max-width: 640px) {
+    width: auto;
+  }
 }
 
 .journal__sidebar-navbar {
