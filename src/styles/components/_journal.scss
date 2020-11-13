@@ -16,6 +16,7 @@
   width: 450px;
   @media (max-width: 640px) {
     width: auto;
+    height: 80vh;
   }
 }
 
@@ -57,10 +58,14 @@
   margin-bottom: 10px;
   overflow: hidden;
   justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
 }
 
 .journal__entry-picture {
-  width: 150px;
+  width: 75px;
+  height: 75px;
 }
 
 .journal__entry-no-picture {
@@ -70,6 +75,7 @@
 .journal__entry-body {
   padding: 10px;
   max-width: 150px;
+  overflow-wrap: break-word;
 }
 
 .journal__entry-title {
