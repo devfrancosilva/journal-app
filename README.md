@@ -1,7 +1,7 @@
 ## JOURNAL APP
 CRUD de notas con registro de usuarios y autenticación por Google
 
-## ---> [LIVE](https://journal.francoder.me) <---
+## ---> [LIVE](https://devfs-journal-app.netlify.app) <---
 ## Tecnologías utilizadas :computer: 
 
 * __React__
